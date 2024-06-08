@@ -1,0 +1,30 @@
+¿Qué es el calibre de un cable eléctrico?
+
+El calibre indica el área del conductor y se mide en AWG (American Wire Gauge). A mayor calibre, mayor capacidad de corriente.
+
+¿Por qué es importante?
+
+Elegir el calibre correcto es crucial para la seguridad y eficiencia de la instalación eléctrica. Un calibre insuficiente puede provocar:
+
+Sobrecalentamiento y riesgo de incendio.
+Caídas de tensión y mal funcionamiento de aparatos.
+Pérdidas de energía y mayor consumo eléctrico.
+¿Cómo seleccionar el calibre adecuado?
+
+Considerar: intensidad de corriente, longitud del cable y condiciones de instalación.
+Consultar con un electricista calificado.
+Utilizar cables certificados.
+No sobrecargar los circuitos.
+Reemplazar cables viejos o dañados.
+Recuerda: El calibre adecuado garantiza la seguridad y el buen funcionamiento de tu instalación eléctrica.
+
+|Calibre AWG| Diámetro (mm²) | Amperaje (A) |
+|    14	    |      2.05	     |      25      |
+|    12	    |      3.31	     |      30      |
+|    10	    |      5.18	     |      35      |
+|    8	    |      8.32	     |      50      |
+|    6	    |      13.09     |      75      |
+|    4	    |      20.74     |      100     |
+|    2	    |      33.60     |      150     |
+|    1	    |      50.88     |      200     |
+|    0	    |      78.92     |      250     |

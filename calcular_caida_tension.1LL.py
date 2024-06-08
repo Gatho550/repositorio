@@ -62,8 +62,8 @@ def calcular_caida_tension():
         voltaje_salida = voltaje_entrada - caida_voltaje
         
         # Mostrar resultados
-        resultado_label.config(text=f"La caída de tensión es: {caida_voltaje:.10f} V")
-        voltaje_salida_label.config(text=f"Voltaje de salida: {voltaje_salida:.10f} V")
+        resultado_label.config(text=f"La caída de tensión es: {caida_voltaje:.4f} V")
+        voltaje_salida_label.config(text=f"Voltaje de salida: {voltaje_salida:.4f} V")
 
     except ValueError as e:
         resultado_label.config(text=str(e))
@@ -138,7 +138,7 @@ def recomendar_calibre():
 # Crear la ventana principal
 root = tk.Tk()
 root.title("Calculadora de Caída de Tensión")
-root.geometry("400x500")
+root.geometry("500x600")
 
 # Crear Notebook para pestañas
 notebook = ttk.Notebook(root)
@@ -204,7 +204,7 @@ resultado_label.grid(column=0, row=7, columnspan=2)
 voltaje_salida_label = ttk.Label(frame_calculo, text="")
 voltaje_salida_label.grid(column=0, row=8, columnspan=2)
 
-# Nueva pestaña dentro de Calculadora
+# Pestaña de Recomendación
 frame_recomendacion = ttk.Frame(notebook_calculadora)
 notebook_calculadora.add(frame_recomendacion, text='Recomendación de Calibre')
 
@@ -246,24 +246,46 @@ notebook_conceptos.pack(fill='both', expand=True)
 
 # Pestaña de Concepto 1
 frame_concepto1 = ttk.Frame(notebook_conceptos)
-notebook_conceptos.add(frame_concepto1, text='Concepto 1')
+notebook_conceptos.add(frame_concepto1, text='Codigo de colores')
 
-concepto1_label = ttk.Label(frame_concepto1, text="Aquí se muestra el concepto 1.")
-concepto1_label.pack()
+concepto1_text = tk.Text(frame_concepto1, wrap='word')
+concepto1_text.pack(fill='both', expand=True)
+
+# Cargar el contenido del archivo de texto
+with open('concepto1.txt', 'r', encoding='utf-8') as file:
+    concepto1_content = file.read()
+
+# Agregar el texto a la pestaña de Concepto 1
+concepto1_text.insert(tk.END, concepto1_content)
+concepto1_text.config(state='disabled')  # Hacer que el texto no sea editable
 
 # Pestaña de Concepto 2
 frame_concepto2 = ttk.Frame(notebook_conceptos)
-notebook_conceptos.add(frame_concepto2, text='Concepto 2')
+notebook_conceptos.add(frame_concepto2, text='Calibres')
 
-concepto2_label = ttk.Label(frame_concepto2, text="Aquí se muestra el concepto 2.")
-concepto2_label.pack()
+concepto2_text = tk.Text(frame_concepto2, wrap='word')
+concepto2_text.pack(fill='both', expand=True)
+
+with open('calibres.txt', 'r', encoding='utf-8') as file:
+    concepto2_content = file.read()
+
+concepto2_text.insert(tk.END, concepto2_content)
+concepto2_text.config(state='disabled')
 
 # Pestaña de Concepto 3
 frame_concepto3 = ttk.Frame(notebook_conceptos)
-notebook_conceptos.add(frame_concepto3, text='Concepto 3')
+notebook_conceptos.add(frame_concepto3, text='Material del cable')
 
-concepto3_label = ttk.Label(frame_concepto3, text="Aquí se muestra el concepto 3.")
-concepto3_label.pack()
+concepto3_text = tk.Text(frame_concepto3, wrap='word')
+concepto3_text.pack(fill='both', expand=True)
+
+# Cargar el contenido del archivo de texto
+with open('material.txt', 'r', encoding='utf-8') as file:
+    concepto3_content = file.read()
+
+# Agregar el texto a la pestaña de Concepto 3
+concepto3_text.insert(tk.END, concepto3_content)
+concepto3_text.config(state='disabled')  # Hacer que el texto no sea editable
 
 # Ejecutar el bucle de eventos
 root.mainloop()

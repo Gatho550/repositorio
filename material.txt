@@ -1,0 +1,53 @@
+Caracteristica          | Cobre     | Aluminio   |      Alucobre     |
+Conductividad           | 63 A/mm²  | 38 A/mm²   |      47 A/mm²     |
+Peso                    | 10 g/cm^3 | 2,7 g/cm^3 |      5,3 g/cm^3   |
+Resistencia mecanica    |   Alta    |   Baja     |      Media        |
+Costo                   |   Alto    |   Bajo     |      Medio        |
+Flexibilidad            |   Alta    |   Media    |      Baja         |
+resistencia a corrosion |   Alta    |   Baja     |Requiere proteccion|
+Temperatura maxima      |   200°C   |   180°C    |      175°C        |
+
+Ventajas del cobre:
+
+Mayor conductividad eléctrica.
+Mayor resistencia mecánica.
+Mayor flexibilidad.
+Alta resistencia a la corrosión.
+Soporta temperaturas más altas.
+
+Desventajas del cobre:
+
+Mayor peso.
+Mayor costo.
+
+Ventajas del aluminio:
+
+Menor peso.
+Menor costo.
+
+Desventajas del aluminio:
+
+Menor conductividad eléctrica.
+Menor resistencia mecánica.
+Menor flexibilidad.
+Baja resistencia a la corrosión.
+Soporta temperaturas más bajas.
+
+Ventajas del alucobre (AAC):
+
+Equilibrio entre las propiedades del cobre y el aluminio.
+Menor peso que el cobre.
+Mayor conductividad eléctrica que el aluminio.
+Mayor resistencia mecánica que el aluminio.
+Menor costo que el cobre.
+
+Desventajas del alucobre (AAC):
+
+Requiere protección adicional contra la corrosión.
+Soporta temperaturas más bajas que el cobre.
+
+En resumen:
+
+El cobre es el material más utilizado para cables eléctricos debido a su alta conductividad eléctrica, resistencia mecánica y flexibilidad.
+El aluminio es una alternativa más económica y ligera que el cobre, pero con menor conductividad y resistencia.
+El alucobre (AAC) es una opción intermedia entre el cobre y el aluminio, ofreciendo un buen equilibrio entre sus propiedades y precio.

@@ -1,0 +1,40 @@
+En México, el código de colores para cables eléctricos está regido por la Norma Oficial Mexicana NOM-001-SEDE-2012. Esta norma establece los colores que se deben usar para identificar los diferentes tipos de cables en las instalaciones eléctricas, con el fin de garantizar la seguridad de los usuarios.
+
+A continuación, se presenta el código de colores de cables eléctricos en México:
+
+Conductor de fase:
+
+Monofásica: Rojo
+
+Bifasica: 
+Fase A: Negro
+Fase B: Rojo
+
+Trifásica:
+Fase A: Negro
+Fase B: Rojo
+Fase C: Azul
+
+Conductor neutro:
+Blanco o gris
+
+Conductor de puesta a tierra:
+Verde o verde con franjas amarillas
+
+Puente:
+Amarillo
+
+Retorno:
+Rojo
+
+Consideraciones adicionales:
+- En caso de no contar con cables del color especificado para la fase, se puede utilizar cable negro y marcar cada fase con cinta aislante del color correspondiente.
+- El conductor de puesta a tierra debe ser de color verde o verde con franjas amarillas en toda su longitud.
+- Es importante utilizar cables con la certificación correspondiente para garantizar su seguridad y calidad.
+
+Recursos útiles:
+- Norma Oficial Mexicana NOM-001-SEDE-2012: https://dof.gob.mx/nota_detalle.php?codigo=5280607&fecha=29/11/2012
+- ¿Qué significan los colores de los Cables Eléctricos?: https://ferreteria.elektron.com.mx/blog/post/que-significan-los-colores-de-los-cables-electricos
+- Código de colores de cables en una instalacion electrica: https://mascapacitacion.com.mx/course/curso-de-instalaciones-electricas-en-una-casa-online/
+
+Es importante recordar que el código de colores de cables eléctricos es una herramienta fundamental para garantizar la seguridad en las instalaciones eléctricas. Es importante seguir las normas y utilizar cables con la certificación correspondiente para evitar accidentes.
