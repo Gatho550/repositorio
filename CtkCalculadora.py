@@ -61,11 +61,11 @@ def calcular_caida_tension():
         voltaje_salida = voltaje_entrada - caida_voltaje
         
         # Mostrar resultados
-        resultado_label.configure(text=f"La caída de tensión es: {caida_voltaje:.4f} V")
-        voltaje_salida_label.configure(text=f"Voltaje de salida: {voltaje_salida:.4f} V")
+        resultado_label.config(text=f"La caída de tensión es: {caida_voltaje:.4f} V")
+        voltaje_salida_label.config(text=f"Voltaje de salida: {voltaje_salida:.4f} V")
 
     except ValueError as e:
-        resultado_label.configure(text=str(e))
+        resultado_label.config(text=str(e))
 
 def recomendar_calibre():
     try:
@@ -121,18 +121,18 @@ def recomendar_calibre():
         
         # Mostrar recomendaciones
         if "Cobre" in recomendaciones:
-            cobre_recomendacion_label.configure(text=f"Calibre recomendado (Cobre): {recomendaciones['Cobre']} AWG")
+            cobre_recomendacion_label.config(text=f"Calibre recomendado (Cobre): {recomendaciones['Cobre']} AWG")
         else:
-            cobre_recomendacion_label.configure(text="No se encontró calibre adecuado para Cobre.")
+            cobre_recomendacion_label.config(text="No se encontró calibre adecuado para Cobre.")
         
         if "Aluminio" in recomendaciones:
-            aluminio_recomendacion_label.configure(text=f"Calibre recomendado (Aluminio): {recomendaciones['Aluminio']} AWG")
+            aluminio_recomendacion_label.config(text=f"Calibre recomendado (Aluminio): {recomendaciones['Aluminio']} AWG")
         else:
-            aluminio_recomendacion_label.configure(text="No se encontró calibre adecuado para Aluminio.")
+            aluminio_recomendacion_label.config(text="No se encontró calibre adecuado para Aluminio.")
     
     except ValueError as e:
-        cobre_recomendacion_label.configure(text=str(e))
-        aluminio_recomendacion_label.configure(text=str(e))
+        cobre_recomendacion_label.config(text=str(e))
+        aluminio_recomendacion_label.config(text=str(e))
 
 def mostrar_frame(frame):
     frame_calculadora.pack_forget()
@@ -250,7 +250,7 @@ aluminio_recomendacion_label.grid(column=0, row=5, columnspan=2)
 frame_conceptos = ctk.CTkFrame(root)
 
 # Crear botones para conceptos
-concepto1_button = ctk.CTkButton(frame_conceptos, text="Código de colores", command=lambda: mostrar_concepto('concepto1.txt'))
+concepto1_button = ctk.CTkButton(frame_conceptos, text="Código de colores", command=lambda: mostrar_concepto('codigo_colores.txt'))
 concepto1_button.pack(fill='x', padx=10, pady=5)
 
 concepto2_button = ctk.CTkButton(frame_conceptos, text="Calibres", command=lambda: mostrar_concepto('calibres.txt'))
