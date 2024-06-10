@@ -1,12 +1,12 @@
-| Característica          | Cobre     | Aluminio   | Alucobre           |
-|-------------------------|-----------|------------|--------------------|
-| Conductividad           | 63 A/mm²  | 38 A/mm²   | 47 A/mm²           |
-| Peso                    | 10 g/cm^3 | 2,7 g/cm^3 | 5,3 g/cm^3         |
-| Resistencia mecánica    | Alta      | Baja       | Media              |
-| Costo                   | Alto      | Bajo       | Medio              |
-| Flexibilidad            | Alta      | Media      | Baja               |
-| Resistencia a corrosión | Alta      | Baja       | Requiere protección|
-| Temperatura máxima      | 200°C     | 180°C      | 175°C              |
+| Característica                  | Cobre          |  Aluminio   | Alucobre           |
+|------------------------------------|-------------------|-----------------|-----------------------|
+| Conductividad                 | 63 A/mm²   | 38 A/mm² | 47 A/mm²         |
+| Peso                                 |  10 g/cm^3  | 2,7 g/cm^3 | 5,3 g/cm^3       |
+| Resistencia mecánica   |       Alta         |       Baja       |          Media          |
+| Costo                                |       Alto         |       Bajo       |          Medio          |
+| Flexibilidad                      |       Alta         |      Media    |           Baja           |
+| Resistencia a corrosión |       Alta         |       Baja       | Requiere protección|
+| Temperatura máxima    |     200°C      |    180°C      | 175°C              |
 
 Ventajas y desventajas del cobre:
 - Ventajas:
