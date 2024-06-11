@@ -1,5 +1,7 @@
 import customtkinter as ctk
 
+ctk.set_default_color_theme("dark-blue")
+
 def calcular_caida_tension():
     try:
         # Recoger datos de las entradas del usuario
@@ -139,7 +141,11 @@ def mostrar_frame(frame):
     frame_recomendacion.pack_forget()
     frame_conceptos.pack_forget()
     frame.pack(fill='both', expand=True)
-
+    if frame == frame_conceptos:
+        root.geometry("800x600")  # Ajusta el tamaño según tus necesidades
+    else:
+        root.geometry("450x550")  # Tamaño predeterminado para otros frames
+        
 # Crear la ventana principal
 root = ctk.CTk()
 root.title("Calculadora de Caída de Tensión")
@@ -248,20 +254,27 @@ aluminio_recomendacion_label.grid(column=0, row=5, columnspan=2)
 
 # Frame para Conceptos
 frame_conceptos = ctk.CTkFrame(root)
+frame_conceptos.pack(padx=10, pady=10, fill='both', expand=True)
 
 # Crear botones para conceptos
 concepto1_button = ctk.CTkButton(frame_conceptos, text="Código de colores", command=lambda: mostrar_concepto('codigo_colores.txt'))
-concepto1_button.pack(fill='x', padx=10, pady=5)
+concepto1_button.grid(row=0, column=0, padx=10, pady=5)
 
 concepto2_button = ctk.CTkButton(frame_conceptos, text="Calibres", command=lambda: mostrar_concepto('calibres.txt'))
-concepto2_button.pack(fill='x', padx=10, pady=5)
+concepto2_button.grid(row=0, column=1, padx=10, pady=5)
 
 concepto3_button = ctk.CTkButton(frame_conceptos, text="Material del cable", command=lambda: mostrar_concepto('material.txt'))
-concepto3_button.pack(fill='x', padx=10, pady=5)
+concepto3_button.grid(row=0, column=2, padx=10, pady=5)
+
+concepto4_button = ctk.CTkButton(frame_conceptos, text="Amperes", command=lambda: mostrar_concepto('amperes.txt'))
+concepto4_button.grid(row=0, column=3, padx=10, pady=5)
+
+concepto5_button = ctk.CTkButton(frame_conceptos, text="Voltaje", command=lambda: mostrar_concepto('voltaje.txt'))
+concepto5_button.grid(row=0, column=4, padx=10, pady=5)
 
 # Textbox para mostrar los conceptos
 concepto_text = ctk.CTkTextbox(frame_conceptos, wrap='word')
-concepto_text.pack(fill='both', expand=True)
+concepto_text.grid(row=1, column=0, columnspan=5, padx=10, pady=10, sticky='nsew')
 
 def mostrar_concepto(archivo):
     with open(archivo, 'r', encoding='utf-8') as file:
@@ -271,6 +284,12 @@ def mostrar_concepto(archivo):
     concepto_text.insert("1.0", content)
     concepto_text.configure(state='disabled')
 
+frame_conceptos.grid_rowconfigure(1, weight=1)
+frame_conceptos.grid_columnconfigure(0, weight=1)
+frame_conceptos.grid_columnconfigure(1, weight=1)
+frame_conceptos.grid_columnconfigure(2, weight=1)
+frame_conceptos.grid_columnconfigure(3, weight=1)
+frame_conceptos.grid_columnconfigure(4, weight=1)
 # Mostrar el frame de calculadora por defecto
 mostrar_frame(frame_calculadora)
 

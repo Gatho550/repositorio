@@ -1,0 +1,26 @@
+¿Qué es el voltaje?
+
+El voltaje, también conocido como tensión eléctrica o diferencia de potencial eléctrico, es una magnitud física que mide la energía potencial por unidad de carga eléctrica. En otras palabras, representa la fuerza que impulsa a las cargas eléctricas a través de un conductor. La unidad de medida del voltaje en el Sistema Internacional de Unidades (SI) es el voltio (V).
+
+¿Cómo se relaciona el voltaje con otros conceptos eléctricos?
+
+El voltaje está estrechamente relacionado con la intensidad de corriente (amperios) y la resistencia (ohmios) en un circuito eléctrico. La famosa Ley de Ohm establece la relación entre estas magnitudes:
+
+V = I * R
+
+Donde:
+
+V = Voltaje (voltios)
+I = Intensidad de corriente (amperios)
+R = Resistencia (ohmios)
+¿Qué importancia tiene el voltaje para los electricistas?
+
+Comprender el voltaje es fundamental para los electricistas por varias razones:
+
+Selección de componentes eléctricos: El voltaje adecuado para un dispositivo o circuito es crucial para su correcto funcionamiento. Si el voltaje es demasiado bajo, el dispositivo no funcionará correctamente; si es demasiado alto, puede dañarse.
+
+Cálculo del consumo de energía: El voltaje, junto con la corriente, se utiliza para calcular el consumo de energía eléctrica en un circuito o aparato. Esta información es crucial para la facturación eléctrica y la eficiencia energética.
+
+Solución de problemas eléctricos:  Medir el voltaje en diferentes puntos de un circuito puede ayudar a identificar problemas eléctricos, como cables rotos, conexiones defectuosas o componentes dañados.
+
+Seguridad eléctrica:  Es importante conocer los voltajes presentes en un circuito para trabajar de forma segura y evitar descargas eléctricas.

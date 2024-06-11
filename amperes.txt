@@ -1,0 +1,24 @@
+¿Qué son los amperios?
+
+El amperio (A), es la unidad de medida del Sistema Internacional de Unidades (SI) para la intensidad de corriente eléctrica. En términos simples, representa la cantidad de carga eléctrica que fluye por un conductor en un segundo.
+
+¿Cómo se relacionan los amperios con otros conceptos eléctricos?
+
+La intensidad de corriente (amperios) está estrechamente relacionada con el voltaje (voltios) y la resistencia (ohmios) en un circuito eléctrico. La famosa Ley de Ohm establece la relación entre estas magnitudes:
+
+I = V / R
+
+Donde:
+
+I = Intensidad de corriente (amperios)
+V = Voltaje (voltios)
+R = Resistencia (ohmios)
+¿Qué importancia tienen los amperios para los electricistas?
+
+Comprender los amperios es fundamental para los electricistas por varias razones:
+
+Selección de cables y componentes: El calibre adecuado de los cables y la capacidad de los componentes eléctricos deben elegirse en función de la corriente que fluirá por ellos. Si la capacidad es menor a la corriente real, se pueden producir sobrecalentamientos, fallos en el circuito e incluso riesgos de incendio.
+
+Protección de circuitos: Los disyuntores y fusibles se calibran en amperios para proteger los circuitos de sobrecargas de corriente. Si la corriente supera el límite establecido, el dispositivo se dispara, interrumpiendo el flujo de electricidad y evitando daños en los equipos.
+
+Cálculo del consumo de energía: La corriente, junto con el voltaje, se utiliza para calcular el consumo de energía eléctrica en un circuito o aparato. Esta información es crucial para la facturación eléctrica y la eficiencia energética.
