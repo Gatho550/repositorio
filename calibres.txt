@@ -1,33 +1,37 @@
-¿Qué es el calibre de un cable eléctrico?
+Introducción
 
-El calibre indica el área del conductor y se mide en AWG (American Wire Gauge). A mayor calibre, mayor capacidad de corriente.
+En el mundo de la electricidad, el calibre de un cable juega un papel fundamental para garantizar la seguridad y el buen funcionamiento de las instalaciones. Elegir el calibre adecuado es crucial para evitar sobrecargas, sobrecalentamientos y riesgos de incendio.
 
-¿Por qué es importante?
+¿Qué es el calibre de un cable?
 
-Elegir el calibre correcto es crucial para la seguridad y eficiencia de la instalación eléctrica. Un calibre insuficiente puede provocar:
+El calibre de un cable, expresado en American Wire Gauge (AWG), es una medida estandarizada que indica el diámetro del conductor de cobre sin aislamiento. A menor número de calibre, mayor es el diámetro del cable y, por lo tanto, mayor su capacidad para transportar corriente eléctrica.
 
-- Sobrecalentamiento y riesgo de incendio.
-- Caídas de tensión y mal funcionamiento de aparatos.
-- Pérdidas de energía y mayor consumo eléctrico.
+Tabla de calibres, amperajes y potencia
 
-¿Cómo seleccionar el calibre adecuado?
+A continuación, se presenta una tabla que relaciona el calibre de un cable con su capacidad máxima en amperios (A) y potencia (W) para dos voltajes comunes: 120 V y 240 V:
 
-- Considerar: intensidad de corriente, longitud del cable y condiciones de instalación.
-- Consultar con un electricista calificado.
-- Utilizar cables certificados.
-- No sobrecargar los circuitos.
-- Reemplazar cables viejos o dañados.
-
-Recuerda: El calibre adecuado garantiza la seguridad y el buen funcionamiento de tu instalación eléctrica.
-
-| Calibre AWG | Diámetro (mm²) | Amperaje (A) |
-|-------------|-----------------|--------------|
-| 14          | 2.05            | 25           |
-| 12          | 3.31            | 30           |
-| 10          | 5.18            | 35           |
-| 8           | 8.32            | 50           |
-| 6           | 13.09           | 75           |
-| 4           | 20.74           | 100          |
-| 2           | 33.60           | 150          |
-| 1           | 50.88           | 200          |
-| 0           | 78.92           | 250          |
+Calibre AWG	Amperaje (120 V)	Amperaje (240 V)	Potencia (120 V)	Potencia (240 V)
+    20	                262	           	     524	    31.440	    62.880
+    18	                324	                 648	    38.880	    77.760
+    16	                380	                 760	    45.600	    91.200
+    14	                440	                 880	    52.800	    105.600
+    12	                500	                 1000	60.000	    120.000
+    10	                560	                 1120	67.200	    134.400
+    8	                700	                 1400	84.000	    168.000
+    6	                800	                 1600	96.000	    192.000
+    4	                1000	             2000	120.000	    240.000
+    2	                1250	             2500	150.000	    300.000
+    1	                1500	             3000	180.000	    360.000
+    0	                1750	             3500	210.000	    420.000
+    2/0	                2000	             4000	240.000	    480.000
+    3/0	                2250	             4500	270.000	    540.000
+    4/0	                2500	             5000	300.000	    600.000
+    250 MCM	            300	                 600	    36.000	    72.000
+    300 MCM	            350	                 700	    42.000	    84.000
+    350 MCM	            400	                 800	    48.000	    96.000
+    400 MCM	            450	                 900	    54.000	    108.000
+    500 MCM	            500	                 1000	60.000	    120.000
+    600 MCM	            600	                 1200	72.000	    144.000
+    700 MCM	            700	                 1400	84.000	    168.000
+    800 MCM	            800	                 1600	96.000	    192.000
+    1000 MCM            1000	             2000	120.000	    240.000

@@ -1,0 +1,26 @@
+¿Qué son los kilovatios hora (kWh)?
+
+El kilovatio hora (kWh) es la unidad de medida del Sistema Internacional de Unidades (SI) para la energía eléctrica. Representa la cantidad de energía eléctrica que se consume durante una hora cuando la potencia eléctrica es de un kilovatio (kW). En otras palabras, es la medida utilizada para facturar el consumo de electricidad en hogares, empresas e industrias.
+
+¿Cómo se relacionan los kWh con otros conceptos eléctricos?
+
+Los kWh se derivan de la potencia eléctrica (W) y del tiempo (h). La fórmula para calcular el consumo de energía en kWh es:
+
+kWh = P * t
+
+Donde:
+
+kWh = Kilovatios hora
+P = Potencia eléctrica (kW)
+t = Tiempo de consumo (horas)
+¿Qué importancia tienen los kWh para los electricistas?
+
+Comprender los kWh es fundamental para los electricistas por varias razones:
+
+Facturación de energía: Los electricistas deben poder leer e interpretar los contadores de energía eléctrica para calcular el consumo en kWh y estimar el costo de la factura.
+
+Asesoramiento a clientes:  Brindar información y consejos a los clientes sobre cómo reducir su consumo de energía en kWh, ayudándoles a ahorrar dinero y mejorar su eficiencia energética.
+
+Dimensionamiento de instalaciones eléctricas:  Al diseñar o modificar instalaciones eléctricas, es necesario estimar el consumo futuro en kWh para seleccionar la capacidad adecuada de los componentes y garantizar el correcto funcionamiento del sistema.
+
+Análisis del consumo energético:  Analizar el consumo de energía en kWh de diferentes instalaciones o equipos para identificar patrones de uso, detectar posibles ineficiencias y optimizar el consumo.

@@ -142,7 +142,7 @@ def mostrar_frame(frame):
     frame_conceptos.pack_forget()
     frame.pack(fill='both', expand=True)
     if frame == frame_conceptos:
-        root.geometry("800x600")  # Ajusta el tamaño según tus necesidades
+        root.geometry("1000x600")  # Ajusta el tamaño según tus necesidades
     else:
         root.geometry("450x550")  # Tamaño predeterminado para otros frames
         
@@ -272,9 +272,15 @@ concepto4_button.grid(row=0, column=3, padx=10, pady=5)
 concepto5_button = ctk.CTkButton(frame_conceptos, text="Voltaje", command=lambda: mostrar_concepto('voltaje.txt'))
 concepto5_button.grid(row=0, column=4, padx=10, pady=5)
 
+concepto6_button = ctk.CTkButton(frame_conceptos, text="Potencia", command=lambda: mostrar_concepto('voltaje.txt'))
+concepto6_button.grid(row=0, column=5, padx=10, pady=5)
+
+concepto6_button = ctk.CTkButton(frame_conceptos, text="Kilovatios Hora", command=lambda: mostrar_concepto('kilovatios.txt'))
+concepto6_button.grid(row=0, column=6, padx=10, pady=5)
+\
 # Textbox para mostrar los conceptos
 concepto_text = ctk.CTkTextbox(frame_conceptos, wrap='word')
-concepto_text.grid(row=1, column=0, columnspan=5, padx=10, pady=10, sticky='nsew')
+concepto_text.grid(row=1, column=0, columnspan=7, padx=10, pady=10, sticky='nsew')
 
 def mostrar_concepto(archivo):
     with open(archivo, 'r', encoding='utf-8') as file:
@@ -290,6 +296,10 @@ frame_conceptos.grid_columnconfigure(1, weight=1)
 frame_conceptos.grid_columnconfigure(2, weight=1)
 frame_conceptos.grid_columnconfigure(3, weight=1)
 frame_conceptos.grid_columnconfigure(4, weight=1)
+frame_conceptos.grid_columnconfigure(5, weight=1)
+frame_conceptos.grid_columnconfigure(6, weight=1)
+
+
 # Mostrar el frame de calculadora por defecto
 mostrar_frame(frame_calculadora)
 
